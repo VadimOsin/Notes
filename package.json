@@ -1,0 +1,16 @@
+{
+  "name": "memo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd memo && npm start",
+    "backend": "cd server && npm run server",
+    "dev": "concurrently \"npm run backend\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
